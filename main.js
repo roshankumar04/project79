@@ -6,7 +6,7 @@ menu_list_array = ["Veg Margherita Pizza",
                         "Veg Extravaganza Pizza"];
     
     function getmenu(){
-        var htmldata="";
+        var htmldata="display_menu";
         menu_list_array.sort();
         for(var i=0;i<menu_list_array.length;i++){
             htmldata=htmldata+ menu_list_array[i] + '<br>'
@@ -20,7 +20,7 @@ menu_list_array = ["Veg Margherita Pizza",
 		var imgtags='<img id="im1" src="pizzaImg.png">'
         var item=document.getElementById("menu_list_array.sort();").value;
         // use the sort function as - menu_list_array.sort();
-        htmldata="";
+        htmldata="menu_list_array.sort();";
         for(var i=0;i<menu_list_array.length;i++){
             htmldata=htmldata+imgtags+ menu_list_array[i]+'<br>';
         }
